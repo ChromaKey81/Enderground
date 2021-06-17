@@ -1,0 +1,28 @@
+{
+    "criteria": {
+      "slayed_the_dragon": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "player": [],
+          "item": {
+            "items": [
+              "minecraft:ender_pearl"
+            ]
+          },
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:air",
+                "minecraft:cave_air",
+                "minecraft:void_air"
+              ]
+            },
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "enderground:dragon_egg/return"
+    }
+  }

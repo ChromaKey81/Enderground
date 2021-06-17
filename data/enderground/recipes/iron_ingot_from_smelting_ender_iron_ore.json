@@ -1,0 +1,10 @@
+{
+    "type": "smelting",
+    "ingredient": {
+        "item": "minecraft:petrified_oak_slab"
+    },
+    "group": "iron_ingot",
+    "result": "minecraft:iron_ingot",
+    "experience": 1.0,
+    "cookingtime": 200
+}

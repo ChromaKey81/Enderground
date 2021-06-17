@@ -1,0 +1,2 @@
+execute unless block ~ ~-1 ~ minecraft:bedrock positioned ~ ~-1 ~ run function enderground:dragon_egg/regenerate_recursive
+execute if block ~ ~-1 ~ minecraft:bedrock if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ dragon_egg replace
