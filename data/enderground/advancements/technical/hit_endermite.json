@@ -1,0 +1,27 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": [],
+          "entity": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:endermite"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "enderground:endermite/tp_friends"
+    }
+  }
+  

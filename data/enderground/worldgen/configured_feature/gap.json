@@ -1,63 +1,18 @@
 {
-    "config": {
-      "feature": {
-        "config": {
-          "feature": {
-            "config": {
-              "feature": {
-                "config": {
-                  "targets": [
-                    {
-                      "target": {
-                        "tag": "enderground:end_gap_replaceable",
-                        "predicate_type": "minecraft:tag_match"
-                      },
-                      "state": {
-                        "Name": "minecraft:cave_air"
-                      }
-                    }
-                  ],
-                  "size": 60,
-                  "discard_chance_on_air_exposure": 0.0
-                },
-                "type": "minecraft:ore"
-              },
-              "decorator": {
-                "config": {
-                  "height": {
-                    "min_inclusive": {
-                      "above_bottom": 1
-                    },
-                    "max_inclusive": {
-                      "below_top": 70
-                    },
-                    "type": "minecraft:uniform"
-                  }
-                },
-                "type": "minecraft:range"
-              }
-            },
-            "type": "minecraft:decorated"
-          },
-          "decorator": {
-            "config": {},
-            "type": "minecraft:square"
-          }
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "tag": "enderground:end_gap_replaceable",
+          "predicate_type": "minecraft:tag_match"
         },
-        "type": "minecraft:decorated"
-      },
-      "decorator": {
-        "config": {
-          "count": {
-            "type": "minecraft:uniform",
-            "value": {
-              "min_inclusive": 7,
-              "max_inclusive": 15
-            }
-          }
-        },
-        "type": "minecraft:count"
+        "state": {
+          "Name": "minecraft:cave_air"
+        }
       }
-    },
-    "type": "minecraft:decorated"
-  }
+    ],
+    "size": 60,
+    "discard_chance_on_air_exposure": 0.0
+  },
+  "type": "minecraft:ore"
+}

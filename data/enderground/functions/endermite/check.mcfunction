@@ -1,2 +1,2 @@
 tag @s add enderground.attempted_spawn
-execute if block ~ ~ ~ minecraft:cave_air run function enderground:endermite/spawn
+execute if predicate enderground:in_end_cave run function enderground:endermite/spawn

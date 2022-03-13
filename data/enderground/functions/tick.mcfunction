@@ -1,1 +1,1 @@
-execute as @e[type=enderman,tag=!enderground.attempted_spawn] at @s if predicate enderground:in_the_end run function enderground:endermite/check
+execute as @e[type=enderman,tag=!enderground.attempted_spawn] at @s run function enderground:endermite/check

@@ -1,67 +1,22 @@
 {
-    "config": {
-      "feature": {
-        "config": {
-          "feature": {
-            "config": {
-              "feature": {
-                "config": {
-                  "targets": [
-                    {
-                      "target": {
-                        "block": "minecraft:end_stone",
-                        "predicate_type": "minecraft:block_match"
-                      },
-                      "state": {
-                        "Name": "minecraft:petrified_oak_slab",
-                        "Properties": {
-                            "type": "double",
-                            "waterlogged": "false"
-                        }
-                      }
-                    }
-                  ],
-                  "size": 10,
-                  "discard_chance_on_air_exposure": 0.0
-                },
-                "type": "minecraft:ore"
-              },
-              "decorator": {
-                "config": {
-                  "height": {
-                    "min_inclusive": {
-                      "above_bottom": 1
-                    },
-                    "max_inclusive": {
-                      "below_top": 1
-                    },
-                    "type": "minecraft:uniform"
-                  }
-                },
-                "type": "minecraft:range"
-              }
-            },
-            "type": "minecraft:decorated"
-          },
-          "decorator": {
-            "config": {},
-            "type": "minecraft:square"
-          }
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "block": "minecraft:end_stone",
+          "predicate_type": "minecraft:block_match"
         },
-        "type": "minecraft:decorated"
-      },
-      "decorator": {
-        "config": {
-          "count": {
-            "type": "minecraft:uniform",
-            "value": {
-              "min_inclusive": 40,
-              "max_inclusive": 100
-            }
+        "state": {
+          "Name": "minecraft:petrified_oak_slab",
+          "Properties": {
+            "type": "double",
+            "waterlogged": "false"
           }
-        },
-        "type": "minecraft:count"
+        }
       }
-    },
-    "type": "minecraft:decorated"
-  }
+    ],
+    "size": 10,
+    "discard_chance_on_air_exposure": 0.0
+  },
+  "type": "minecraft:ore"
+}
